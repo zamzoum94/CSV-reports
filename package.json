@@ -1,0 +1,30 @@
+{
+  "name": "csv-reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamzoum94/CSV-reports.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zamzoum94/CSV-reports/issues"
+  },
+  "homepage": "https://github.com/zamzoum94/CSV-reports#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
